@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/listContainFragment">
+
+    <fragment
+        android:id="@+id/listContainFragment"
+        android:name="com.example.assignment7.list.ListContainFragment"
+        android:label="ListContainFragment" >
+        <action
+            android:id="@+id/action_listContainFragment_to_showDetailFragment"
+            app:destination="@id/showDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showDetailFragment"
+        android:name="com.example.assignment7.show_details.ShowDetailFragment"
+        android:label="ShowDetailFragment" >
+        <action
+            android:id="@+id/action_showDetailFragment_to_listContainFragment"
+            app:destination="@id/listContainFragment" />
+    </fragment>
+</navigation>

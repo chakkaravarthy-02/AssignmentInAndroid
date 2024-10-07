@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment 8</string>
+    <string name="welcome">WELCOME</string>
+    <string name="click">Click which format you want see</string>
+    <string name="to_text">To-Text</string>
+    <string name="to_image">To-Image</string>
+</resources>

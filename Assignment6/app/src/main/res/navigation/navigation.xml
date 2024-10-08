@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/getFragment">
+    <fragment
+        android:id="@+id/getFragment"
+        android:name="com.example.assignment6.get.GetFragment"
+        android:label="GetFragment" >
+        <action
+            android:id="@+id/action_getFragment_to_putFragment"
+            app:destination="@id/putFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/putFragment"
+        android:name="com.example.assignment6.put.PutFragment"
+        android:label="PutFragment" >
+        <action
+            android:id="@+id/action_putFragment_to_getFragment"
+            app:destination="@id/getFragment" />
+    </fragment>
+</navigation>

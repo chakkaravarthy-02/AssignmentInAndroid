@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.assignment3.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title">
+        <action
+            android:id="@+id/action_titleFragment_to_showWonDetailsFragment"
+            app:destination="@id/showWonDetailsFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_showLoseDetailsFragment"
+            app:destination="@id/showLoseDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showWonDetailsFragment"
+        android:name="com.example.assignment3.ShowWonDetailsFragment"
+        android:label="fragment_show_lose_details"
+        tools:layout="@layout/fragment_show_lose_details">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/showLoseDetailsFragment"
+        android:name="com.example.assignment3.ShowLoseDetailsFragment"
+        android:label="ShowLoseDetailsFragment">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">SaranChakkaravarthy</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, My name is Saran chakkaravarthy.
+        \nI’m all about blending my passions into a vibrant, fulfilling life. I’m based in San Francisco, where I work as a software developer. My job lets me dive into innovative tech solutions, and I love finding ways to mix cutting-edge technology with artistic creativity.
+\n\nAnime has been a huge part of my life forever. I’m always on the lookout for both classic and new series, getting lost in the storytelling and stunning visuals. This passion spills over into my art, where I create digital pieces inspired by the unique styles and characters from my favorite anime.
+\nWhen I’m not immersed in tech or art, you’ll find me deeply engaged in sports. Whether I’m hitting the gym for a tough workout, playing in a local soccer league, or cheering on my favorite teams, I bring the same energy and enthusiasm to sports as I do to everything else in my life.
+\n\nI love balancing my tech career with my artistic projects and sports activities. It’s all about finding harmony between these different interests and thriving at their intersection.
+\n\nHobbies: Digital art creation, anime marathons, tech gadgetry, and sports (soccer, basketball, and fitness).
+\n\nFavorite Quote: "Creativity is intelligence having fun." – Albert Einstein
+\n\nCurrent Projects: I’m currently developing a tech app inspired by anime storytelling, designing a series of sports-themed digital artworks, and exploring the latest trends in sports technology.
+    </string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
+</resources>
